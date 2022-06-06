@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Festive&family=Quintessential&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+
+.barra-inferior {
+    display: none;
+}
+
+.topo {
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    z-index: 10;
+}
+
+.caixa-logo {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+ion-icon {
+    font-size: 25px;
+}
+
+.barra-vertical {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin: 0px 10px;
+}
+
+.barra-pesquisar {
+    width: 215px;
+    height: 28px;
+    background-color: #E5E5E5;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-pesquisar p {
+    color: #979797;
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+.barra-icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;   
+}
+
+.icone-superior {
+    margin: 0px 15px;
+}
+
+
+.pagina {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.caixa-stories {
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    margin-top: 88px;
+    overflow: hidden;
+}
+
+
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+    
+
+.borda-story {
+    width: 66px;
+    height: 66px;
+    background-image: url(./stories_background.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+.story-foto {
+    height: 56px;
+    width: 56px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.story-foto img{
+   height: 56px;
+   width: 56px;
+   border-radius: 50%;
+}
+
+.texto-story {
+    font-size: 12px;
+    font-weight: 400;
+    color: #262626;
+    margin-top: 10px;
+    line-height: 14.06px;
+}
+
+
+.container-post {
+    margin-top: 220px;
+}
+
+
+.post {
+    width: 614px;
+    height: 749px;
+    background-color:#FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+}
+
+.container-perfil-post {
+    width: 614px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-post {
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    justify-content: space-between;
+}
+
+
+.imagem-perfil {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.imagem-perfil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+
+
+.nome-perfil {
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+}
+
+.icone-perfil {
+    width: 16px;
+    height: 16px;
+    margin-right: 17px;
+}
+
+.icone-perfil ion-icon {
+    font-size: 16px;
+}
+
+
+
+.imagem-post {
+    display: flex;
+    justify-content: center;
+    height: 614px;
+    width: 614px;
+}
+
+.imagem-post img{
+    width: 612px;
+    height: 612px;
+}
+
+
+.icones-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+.trio-icones-post {
+    display: flex;
+    
+}
+
+.ultimo-icone-post {
+    
+    margin-right: 18px;
+}
+
+.icone-post {
+    margin: 0px 13px;
+}
+
+.curtidas-post {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.perfil-curtidas {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.perfil-curtidas img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.texto-curtidas {
+    width: auto;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.texto-curtidas strong {
+    font-weight: 500;
+}
+
+.sidebar {
+    width: 293px;
+}
+
+
+.sugestao {
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    position: fixed;
+}
+
+.imagem-sugestao{
+    height: 56px;
+    width: 56px;
+    margin-right: 10px;
+}
+
+.imagem-sugestao img {
+    height: 56px;
+    width: 56px;
+}
+
+.nome-sugestao {
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.nome-sugestao p{
+    font-weight: 500;
+    color: #262626;
+}
+
+.nome-sugestao h5 {
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+
+.sugestoes {
+    position: fixed;
+    margin-top: 160px;
+}
+
+.texto-sugestoes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    margin-top: 25px;
+}
+
+.texto-sugestoes p {
+    color: #262626;
+}
+
+.texto-sugestoes h5 {
+    color: #8E8E8E;
+}
+
+.sugestao-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.imagem-sugestao-perfil {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.imagem-sugestao-perfil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nome-sugestao-perfil p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    color: #262626;
+}
+
+.nome-sugestao-perfil h5{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color:#8E8E8E;
+}
+
+.caixa-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seguir-sugestao {
+    margin-left: 60px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    color: #139EF2;
+}
+
+
+.topo-mobile {
+    display: none;
+}
+
+
+@media (max-width: 935px) {
+
+    body {
+        width: 100vw;
+    }
+
+
+    .topo-mobile {
+        display: none;
+    }
+
+
+    .topo {
+        width: 100%;
+    }
+
+    .pagina {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .conteudo {
+        width: 100vw;
+        justify-content: center;
+        
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .barra-pesquisar {
+        margin-left: 30px;
+    }
+
+    .feed {
+        justify-content: center;
+    }
+
+ 
+}
+
+
+@media (max-width: 614px) {
+
+    .pagina {
+        width: 100vw;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+   
+    .topo {
+        display: none;
+    }
+
+    .topo-mobile {
+        width: 100vw;
+        height: 53px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #DBDBDB;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .logo-imagem {
+        margin: 0px 30px;
+    }
+
+    .barra-icones-mobile {
+        width: 22px;
+        height: 22px;
+        margin: 0px 30px;
+    }
+
+
+
+    .sidebar {
+        display: none;
+    }
+
+   
+    .caixa-stories {
+        background-color: #E5E5E5;
+        border: none;
+        margin-top: 50px;
+        width: 100vw;
+    }
+
+    .post {
+        margin-top: 5px;
+        width: 100vw;
+    }
+
+    .feed {
+        width: 100vw;
+    }
+
+    .imagem-post {
+        width: 100vw;
+    }
+
+    .imagem-post img {
+        width: 100vw;
+    } 
+
+    .barra-inferior {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        background-color: #FFFFFF;
+        height: 54px;
+        border: 1px solid #DBDBDB;
+    }
+
+    .icone-inferior {
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .conteudo {
+        width: 100vw;
+        justify-content: center;
+        
+    }
+
+
+    .container-perfil-post {
+        width: 100vw;
+    }
+
+   
+}   
